@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0137/v1
+canonical_location: https://kanripo.org/bkk/KR6i0137/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說未生冤經
+  identifiers:
+    alt_id:
+    - T14n0507
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0507.xml
+    old_id: T14n0507
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0137_000.yaml, hash: 'sha256:2dbce02b6398bea81c7fd75549df1005416658b50a9cf6d80ed76d1553b8fbb9'}
+  - {seq: 1, filename: KR6i0137_001.yaml, hash: 'sha256:cab8411b70eea69f20f6c8d96b563fa82e143958303380366860f7e5887e74b6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0137_001.markers.yaml, hash: 'sha256:9e8977a6f66e35dddefb3f24b3bb88dfa4a5d23cd9410c180a10ac009746f06e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0137_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1370
+  label: 佛說未生冤經
+  type: juan
+  level: 1
+hash: sha256:5ab45317b8e10e58e079ad6262bd9e22dc81187e5dfae605ec92d1ad01af5c49
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
