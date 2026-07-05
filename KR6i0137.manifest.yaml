@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0137_000.yaml, hash: 'sha256:2dbce02b6398bea81c7fd75549df1005416658b50a9cf6d80ed76d1553b8fbb9'}
-  - {seq: 1, filename: KR6i0137_001.yaml, hash: 'sha256:cab8411b70eea69f20f6c8d96b563fa82e143958303380366860f7e5887e74b6'}
+  - {seq: 1, filename: KR6i0137_001.yaml, hash: 'sha256:489569d2b124083870c5983675403d8df31ac801811b0fe3272d294f5cba9a61'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0137_001.markers.yaml, hash: 'sha256:9e8977a6f66e35dddefb3f24b3bb88dfa4a5d23cd9410c180a10ac009746f06e'}
+  - {seq: 0, role: markers, filename: assets/KR6i0137_000.markers.yaml, hash: 'sha256:ec9a6b17e15d3e9f4b6760d8d194112e640357ac4ff1e5c67c75bcfa73824bda'}
+  - {seq: 1, role: markers, filename: assets/KR6i0137_001.markers.yaml, hash: 'sha256:c0d46f411d78a08baa1bf5ac875badd132eb521caafe437808292ab939fae580'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說未生冤經
   type: juan
   level: 1
-hash: sha256:5ab45317b8e10e58e079ad6262bd9e22dc81187e5dfae605ec92d1ad01af5c49
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:d7bb1fb6187452908578c03415f74eec5711f5e3a8960f5c051889f6526452f3
